@@ -1,0 +1,18 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#products{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  width: 33%;
+}
+
+.item img{
+  width: 200px;
+}
