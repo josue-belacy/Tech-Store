@@ -12,8 +12,15 @@
 const products = document.getElementById("products")
 const searchBar = document.getElementById("searchBar")
 
+let merchandise  = []
+
 searchBar.addEventListener('keyup', e => {
-  console.log(value);
+  console.log(e)
+
+  const value = e.target.value.toLowerCase()
+  merchandise.forEach(products => {
+    console.log(searchBar)
+  })
 });
 
 fetch('https://fakestoreapi.com/products')
