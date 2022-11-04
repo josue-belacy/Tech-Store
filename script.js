@@ -15,7 +15,7 @@ const searchBar = document.getElementById("searchBar")
 let merchandise  = []
 
 searchBar.addEventListener('keyup', e => {
-  console.log(e)
+  console.log(e.target.value)
 
   const value = e.target.value.toLowerCase()
   merchandise.forEach(products => {
